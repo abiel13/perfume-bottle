@@ -1,0 +1,140 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+body{
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+main{
+z-index: 1000;
+    width: 70%;
+    height: 80%;
+    background-color: #f2ebe3;
+    box-shadow: 15px 15px 5px #918989;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+.container{
+    width: 55%;
+    height: 70%;
+   
+    border-radius: 20px;  
+     display: flex;
+}
+
+.container .image{
+ 
+width: 50%;
+height:100%;
+background: url(./assets/image-product-desktop.jpg);
+background-position: center;
+background-size: cover;
+border-radius: 20px;
+border-top-right-radius: 0px;
+border-bottom-right-radius: 0px;
+}
+
+.bluelines{
+    display: flex;
+    justify-content: space-around;
+    width: 10%;
+    height: 30%;
+    position: absolute;
+    top:12px;
+    z-index: 0;
+}
+
+.line{
+   border:4px dotted pink;
+    width: 30%;
+    height: 100%;
+}
+
+.angle{
+    font-size: 7em;
+    color: gray;
+position: absolute;
+left: 0px;
+}
+
+.text{
+    background-color: white;
+    width:50%;
+    height: 100%;
+border-radius: 20px;
+border-bottom-left-radius: 0px;
+border-top-left-radius:0px ;
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+align-items: center;
+}
+
+
+.top{
+    width: 70%;
+    height: 5%;
+    text-align: left;
+color:#918989;
+    
+}
+
+.n{
+    width: 70%;
+ height: 25%;
+ font-size: .8em;
+}
+
+.remain{
+    width: 70%;
+    height: 65%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+  
+}
+.remain p{
+    color:gray;
+    font-size: .8em;
+}
+
+.remain h3{
+    color:green;
+    font-size: 1.5em;
+}
+
+h3 sup{
+    font-size: .4em;
+    
+}
+strike{
+    color: black;
+}
+
+button{
+    height: 2.4em;
+    width: 14em;
+    color: white;
+  background-color: rgb(32, 95, 32);
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+button:hover{
+    background-color: rgb(21, 58, 21);
+}
